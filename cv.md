@@ -2,6 +2,8 @@
 
 ---
 
+![photo](https://avatars.githubusercontent.com/u/106339251?s=400&u=a44305e143d335f95753e4ef752109ac3f628a05&v=4)
+
 ## Personal information
 
 ---
@@ -28,7 +30,7 @@ Different English courses| 2013 - 2019
 ## Work experience
 
 ---
-**2000 - March 2013**
+*2000 - March 2013*
 Accountent
 Glavnoe statisticheskoe upravlenie Minskoj oblasti, zamestitel nachalnica otdela buchgalterskogo ucheta i finansov
 
