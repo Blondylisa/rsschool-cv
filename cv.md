@@ -43,14 +43,14 @@ Coca-Cola Beverages Belarus
 ---
 At the moment I haven't experience in the IT industry, but I expect to acquire basic skills on the course.
 
-languages:
+## languages:
 
 + English Pre-Intermediate (A2)
 + Russian native speaker
 
 My first project is this CV.
 
- Interest
+## Interest
 
 ---
 I love learning new things, I am very hard working. In my free time, I enjoy running, traveling and reading.
