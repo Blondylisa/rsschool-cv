@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.51);
+}
+
+/* .about {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.about me {
+    margin-left: 40px;
+} */
+
+.about p {
+    color: #1a1b1c;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* .contacts { */
+/* background: red; */
+
+/* } */
+
+.container {
+    max-width: 750px;
+    margin: auto
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 1px;
+    border-radius: 20px
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bg-red {
+    background: #88f4eb;
+}
+
+.bg-yellow {
+    background: #39c367f9;
+}
+
+.bg-green {
+    background: #2E8B57;
+}
+
+.bg-blue {
+    background: #306754;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.table {
+    width: 100%
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table tr:nth-child(odd) {
+    background: #88bef4;
+
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row>.form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row>.form-group: :last-child {
+    margin-right: 0;
+}

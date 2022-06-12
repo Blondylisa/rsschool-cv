@@ -7,90 +7,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <!-- <link rel="icon" href="assets/favicon.ico"> -->
 </head>
 
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="assets/img/Photo.jpg" width="200" alt="My photo" /></td>
-            <td>
+    <div class="container">
+
+        <div class="about">
+            <img src="assets/img/Photo.jpg" alt="My photo" class="photo" /></td>
+            <div class="about me">
                 <h1>Grib Ekaterina</h1>
-                <p>
-                    <em><strong>Senior accountant</strong></em>
-                </p>
-                <p></p> Date of birth 22.12.1981
+                <p> Senior accountant</p>
+                <p>Date of birth 22.12.1981</p>
                 <p>I like running, traveling and reading</p>
                 <p>I am currently on maternity leave with my son.</p>
-            </td>
-        </tr>
-    </table>
+            </div>
+            <h3>Contacts</h3>
+
+            <p><a href="https://github.com/Blondylisa" target="_blank">Github</a></p>
+            <p><a href="https://t.me/blondylisa" target="_blank">Telegram</a></p>
+            <p>Blondylisa@mail.ru</p>
+            <p>Belarus, Minsk</p>
+
+            <div class="card bg-red">
+                <h2>Education and training</h2>
+                <table class="table">
+
+                    <tr>
+                        <td>Belorusskij tsentr perepodgotovki i trudoustrojstva voennosluzaschih zapasa po spestialnosti
+                            buchgalterskij uchet, analiz i audit</td>
+                        <td>1999-2000</td>
+                    </tr>
+                    <tr>
+                        <td>Belorusskij tsentr perepodgotovki i trudoustrojstva voennosluzaschih zapasa po spestialnosti
+                            buchgalterskij uchet, analiz i audit</td>
+                        <td>1999-2000</td>
+                    </tr>
+                    <tr>
+                        <td>Different English courses</td>
+                        <td>2013-2019</td>
+                    </tr>
+                </table>
+            </div>
 
 
-    <hr>
-    <h2>Contacts</h2>
-    <ul type=" square">
-        <li><a href="https://github.com/Blondylisa" target="_blank">Github</a></li>
-        <li><a href="https://t.me/blondylisa" target="_blank">Telegram</a></li>
-        <li>Blondylisa@mail.ru</li>
-        <li>Belarus, Minsk</li>
-    </ul>
-    <hr>
-    <h1>Education and training</h1>
-    <table border="2">
-        <tr>
-            <th>Company</th>
-            <th>Years</th>
-        </tr>
-        <tr>
-            <td>Belorusskij tsentr perepodgotovki i trudoustrojstva voennosluzaschih zapasa po spestialnosti
-                buchgalterskij uchet, analiz i audit</td>
-            <td>1999-2000</td>
-        </tr>
-        <tr>
-            <td>Belorusskij tsentr perepodgotovki i trudoustrojstva voennosluzaschih zapasa po spestialnosti
-                buchgalterskij uchet, analiz i audit</td>
-            <td>1999-2000</td>
-        </tr>
-        <tr>
-            <td>Different English courses</td>
-            <td>2013-2019</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Work experience</h2>
-    <p><strong>2000 - March 2013</strong></p>
-    <p><em>Accountent</em></p>
-    <p>Glavnoe statisticheskoe upravlenie Minskoj oblasti, zamestitel nachalnica otdela buchgalterskogo ucheta i
-        finansov</p>
-    <p><strong>March 2013 - now</strong></p>
-    <p><em>Senior accountant</em></p>
-    <p>Coca-Cola Beverages Belarus</p>
-    <hr>
-    <h2>Skils</h2>
-    <p>At the moment I haven't experience in the IT industry, but I expect to acquire basic skills on the course.</p>
-    <p><strong>My first project is this CV.</strong></p>
-    <hr>
-    <h2>languages</h2>
-    <p>
-    <ul type="circle">
-        <li>English Pre-Intermediate (A2)</li>
-        <li>Russian native speaker</li>
-    </ul>
-    </p>
-    <hr>
-    <h2>Сontact with me</h2<form>
-        </form action="/">
-        <label for="name">Your name</label>
-        <input type="text" id="name" placeholder="Enter your name">
-        <br>
-        <label for="email">Your Email</label>
-        <input type="email" id="email" placeholder="Enter your Email">
-        <br>
-        <label for="text">Your message:</label>
-        <br>
-        <textarea id="text" rows="3" cols-"20"></textarea>
-        <input type="submit" value="Contact">
+            <div class="card bg-yellow">
+                <h2>Work experience</h2>
+                <p><strong>2000 - March 2013</strong></p>
+                <p><em>Accountent</em></p>
+                <p>Glavnoe statisticheskoe upravlenie Minskoj oblasti, zamestitel nachalnica otdela buchgalterskogo
+                    ucheta i
+                    finansov</p>
+                <p><strong>March 2013 - now</strong></p>
+                <p><em>Senior accountant</em></p>
+                <p>Coca-Cola Beverages Belarus</p>
+            </div>
+
+            <div class="card bg-green">
+                <h2>Skils</h2>
+                <p>At the moment I haven't experience in the IT industry, but I expect to acquire basic skills
+                    on the
+                    course.
+                </p>
+                <p><strong>My first project is this CV.</strong></p>
+            </div>
+
+            <div class="card bg-blue">
+                <h2>languages</h2>
+                <p>
+                <ul type="circle" class="list">
+                    <li>English Pre-Intermediate (A2)</li>
+                    <li>Russian native speaker</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="contact">
+
+                <h2>Сontact with me</h2>
+
+                <form action="/">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Your message:</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="text" rows="3" cols="20"></textarea>
+                    </div>
+                    <input type="submit" value="Contact">
+
+            </div>
+
+
+
 </body>
 
 </html>
