@@ -138,3 +138,24 @@ a:visited {
 .row>.form-group: :last-child {
     margin-right: 0;
 }
+.footer__nav__list {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer__nav__list li {
+    list-style-type: none;
+    ;
+  }
+  
+  .footer__nav__list li a i.fab {
+    color: rgb(8, 8, 8);
+    font-size: 45px;
+  }
+  
+  .footer__nav__list li a i.fab:hover {
+    color: orange;
+  }
