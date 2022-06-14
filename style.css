@@ -146,7 +146,9 @@ a:visited {
     width: 50px;
 }
 
-
+.footer {
+    font-weight: bold;
+}
 
 .footer__nav__list {
     margin-top: 8rem;
@@ -156,12 +158,6 @@ a:visited {
     align-items: center;
 }
 
-/* .footer__nav__list li { */
-/* list-style-type: none; */
-;
-/* } */
-
-/* .footer__nav__list li a i.fab { */
-/* color: rgb(8, 8, 8); */
-/* font-size: 45px; */
-/* } */
+.footer__nav__list li {
+    list-style-type: none;
+}
