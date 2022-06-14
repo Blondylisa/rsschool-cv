@@ -36,11 +36,6 @@ body {
     text-decoration: none;
 }
 
-/* .contacts { */
-/* background: red; */
-
-/* } */
-
 .container {
     max-width: 750px;
     margin: auto;
@@ -160,4 +155,44 @@ a:visited {
 
 .footer__nav__list li {
     list-style-type: none;
+}
+
+
+
+ul.contactslink li {
+    list-style-type: none;
+}
+
+
+
+ul.contactslink {
+    padding: 0;
+}
+
+
+
+.contactslink {
+    display: flex;
+    margin-bottom: rem;
+    color: #3e133e;
+}
+
+.address__link,
+.envelope__link {
+    margin-left: 2rem;
+
+}
+
+
+/* .address__link, */
+.github__link,
+/* .envelope__link, */
+.telegram__link {
+    margin-left: 1rem;
+
+}
+
+.font_arial {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3e133e;
 }
